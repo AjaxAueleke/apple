@@ -13,12 +13,12 @@ body {
   position: fixed;
   width: 100%;
   padding-top: 20px;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .nav li {
   color: #bbb;
   display: inline;
-  margin: 3%;
+  margin: 2%;
 }
 li:hover {
   color: white;
@@ -164,6 +164,7 @@ footer {
   margin: 5px 0 5px 0;
   background-color: #dddddd;
   padding : 2% 5% 2% 5%;
+  font-size : 0.5rem;
 }
 
 div.footer-list {
