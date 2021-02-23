@@ -1,0 +1,199 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.nav {
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+.nav li {
+  color: #bbb;
+  display: inline;
+  margin: 3%;
+}
+li:hover {
+  color: white;
+  cursor: pointer;
+}
+.filler {
+  height: 100px;
+  background-color: black;
+}
+.covid {
+  background-color: hsl(199, 98%, 35%);
+  color: white;
+  text-align: center;
+  /* margin-top : -15px; */
+  padding: 0.01%;
+  font-size: medium;
+}
+div.covid p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.shop {
+  background-color: rgb(224, 224, 224);
+  color: #4d4d4d;
+  text-align: center;
+  padding: 0.01%;
+  font-size: medium;
+}
+.shop a {
+  color: hsl(199, 98%, 35%);
+}
+.shop a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.iphone-12 {
+  text-align: center;
+  padding: 50px 0 0 0;
+  background-color: #f4f3f3;
+}
+.iphone-12 h1 {
+  font-size: 250%;
+  font-weight: bolder;
+}
+.iphone-12 h3 {
+  font-size: 80%;
+  color: #4d4d4d;
+}
+.iphone-12 span {
+  margin: 20px;
+  color: hsl(199, 98%, 35%);
+}
+.iphone-12-r {
+  text-align: center;
+  padding: 50px 0 0 0;
+  background-color: #000;
+}
+.iphone-12-r h1 {
+  font-size: 250%;
+  color: white;
+}
+.iphone-12-r h2 {
+  color: white;
+}
+.iphone-12-r h3 {
+  font-size: 80%;
+  color: #bbb;
+}
+.iphone-12-r span {
+  margin: 20px;
+  color: hsl(199, 98%, 35%);
+}
+
+.ipad {
+  text-align: center;
+  padding: 50px 0 0 0;
+  background-color: #f4f3f3;
+}
+.ipad h1 {
+  font-size: 250%;
+}
+.ipad h3 {
+  font-size: 80%;
+  color: #4d4d4d;
+}
+.ipad span {
+  margin: 20px;
+  color: hsl(199, 98%, 35%);
+}
+div.pictures {
+  display: flex;
+  background-color:whitesmoke;
+}
+div.race {
+  display: inline;
+  background-image: url("images/race.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 800px;
+  margin : 10px 0 10px 10px;
+  text-align: center;
+  padding: 100px;
+  color : white;
+  font-size: 2vh;
+
+}
+div.watch {
+  display: inline;
+  background-image: url("images/watch.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  margin: 10px;
+  height: 800px;
+  text-align: center;
+  padding: 100px;
+  color :#e7e6e1;
+  font-size: 3vh;
+  color : white;
+  
+
+}
+div.watch span {
+  color :hsl(199, 98%, 35%);
+}
+div.watches img {
+  width: 100%;
+}
+div.watches {
+width: 50%;
+height: 800px;
+margin : 10px 0 10px 10px;
+text-align: center;
+padding: 100px;
+color : black;
+font-size: 1.5vh;
+}
+footer {
+
+  margin: 5px 0 5px 0;
+  background-color: #dddddd;
+  padding : 2% 5% 2% 5%;
+}
+
+div.footer-list {
+  display : flex;
+  justify-content: space-between;
+
+}
+
+li>b {
+  display : block;
+  padding-top : 15px;
+}
+div.footer-list li {
+  list-style: none;
+  padding : 5px;
+}
+ol>li {
+  padding : 5px;
+  line-height: 2rem;
+}
+.tv {
+  background-image: url('images/apple-tv.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  margin: 10px;
+  height: 800px;
+  text-align: center;
+  padding: 100px;
+  color :#e7e6e1;
+  font-size: 2vh;
+}
